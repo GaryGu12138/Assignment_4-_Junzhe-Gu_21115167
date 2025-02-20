@@ -35,10 +35,14 @@ The project builds on the **Chapter1_Unsupervised_Learning_Methods_Michel.ipynb*
 
 ## **Results**
 ### **🔹 Average Waveform and Standard Deviation**
-The echo plot shows the **mean echo shape and variability** for sea ice and leads
-![image](https://github.com/user-attachments/assets/a7118f7f-1723-4b3f-99e3-e1be5d3dbb71)
+The plots of  (1) average echo shape and standard deviation (2) echos produced for these two classes  shows the **mean echo shape and variability** for sea ice and leads
+![image](https://github.com/user-attachments/assets/77ef1b2e-fbb2-4be1-9e95-8f42dfc45e67)
+![image](https://github.com/user-attachments/assets/429fcc06-743d-425b-9b4c-e6eb4e260efb)
+![image](https://github.com/user-attachments/assets/961eb75d-0a61-47c5-9005-9c27c26def5b)
+![image](https://github.com/user-attachments/assets/143444bf-bdaa-4efb-99e1-a87cc7517cce)
 
-### **🔹 Confusion Matrix**
+
+### **🔹 Confusion Matrix of my echo classification against the ESA official classification**
 | Predicted | True Ice | True Lead |
 |-----------|---------|----------|
 | **Ice**   | 8856    | 22       |
