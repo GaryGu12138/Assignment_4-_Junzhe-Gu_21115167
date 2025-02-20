@@ -1,4 +1,4 @@
-# **SAR Echo Classification: Leads vs. Sea Ice**  
+# **Echo Classification: Leads vs. Sea Ice**  
 ## **Overview**
 This repository contains the code and results for the **Week 4 Assignment** of the course, focusing on **unsupervised learning methods** for classifying SAR echoes into **leads (open water) and sea ice**.  
 
