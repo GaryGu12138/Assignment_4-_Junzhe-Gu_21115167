@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><Earth_Explorer_File xmlns="http://gs2.esa.int/DATA_STRUCTURE/olqcReport">
+    <Earth_Explorer_Header>
+        <Fixed_Header>
+            <File_Name>GRANULE/L1C_T01WCU_A019275_20190301T235610/QI_DATA/FORMAT_CORRECTNESS.xml</File_Name>
+            <File_Description>Report produced by OLQC-SC</File_Description>
+            <Notes/>
+            <Mission>S2A</Mission>
+            <File_Class>OPER</File_Class>
+            <File_Type>REP_OLQCPA</File_Type>
+            <Validity_Period>
+                <Validity_Start>UTC=2019-02-11T00:00:00</Validity_Start>
+                <Validity_Stop>UTC=2100-01-01T00:00:00</Validity_Stop>
+            </Validity_Period>
+            <File_Version>2</File_Version>
+            <Source>
+                <System>OLQC-SC</System>
+                <Creator>OLQC-SC</Creator>
+                <Creator_Version>01.06.03</Creator_Version>
+                <Creation_Date>UTC=2019-03-02T02:12:21</Creation_Date>
+            </Source>
+        </Fixed_Header>
+    </Earth_Explorer_Header>
+    <Data_Block type="xml">
+        <report date="2019-03-02T02:12:21.903Z" gippVersion="1.0" globalStatus="PASSED">
+            <checkList>
+                <parentID>S2A_OPER_GIP_OLQCPA_MPC__20181218T000020_V20190211T000000</parentID>
+                <name>FORMAT_CORRECTNESS</name>
+                <version>1.0</version>
+                <item class="http://www.esa.int/s2#pdi_level_1c_tile_container" className="PDI Level 1C Tile Folder" name="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" url="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/"/>
+                <check>
+                    <inspection creation="2019-03-02T02:12:21.319Z" duration="218" execution="2019-03-02T02:12:21.640Z" id="frameSetCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if MeasurementFrameSet Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : measurementFrameSet</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:21.914Z" duration="250" execution="2019-03-02T02:12:22.017Z" id="informationClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Information Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : S2_Level-1C_Tile_Information</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:22.287Z" duration="1342" execution="2019-03-02T02:12:22.529Z" id="hrefExist" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if all external references are present in the product directory. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">All external references are present in the product directory.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:23.874Z" duration="8" execution="2019-03-02T02:12:23.887Z" id="acquisitionPeriodExists" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Acquisition Period is present. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period exists.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:23.898Z" duration="30" execution="2019-03-02T02:12:23.920Z" id="qualityInformationCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Quality Information Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:23.952Z" duration="8" execution="2019-03-02T02:12:23.967Z" id="processingCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Processing Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:23.978Z" duration="8" execution="2019-03-02T02:12:23.993Z" id="platformCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Platform Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Platform Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.003Z" duration="6" execution="2019-03-02T02:12:24.017Z" id="checkSafeManifest" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Safe Manifest check. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Safe manifest present.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.026Z" duration="35" execution="2019-03-02T02:12:24.048Z" id="orbitReferenceCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Orbit Reference Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : measurementOrbitReference</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.087Z" duration="31" execution="2019-03-02T02:12:24.113Z" id="frameSetClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if MeasurementFrameSet Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : measurementFrameSet</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.147Z" duration="8" execution="2019-03-02T02:12:24.163Z" id="acquisitionPeriodClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Acquisition Period Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.205Z" duration="70" execution="2019-03-02T02:12:24.230Z" id="extraData" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Extra Files are present in product directory. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Extra Files found in product directory.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.303Z" duration="28" execution="2019-03-02T02:12:24.323Z" id="schemaClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Schema Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : S2_Level-1C_Tile_Schema, Inventory_Metadata_Schema, OLQC_Report_Schema</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.354Z" duration="27" execution="2019-03-02T02:12:24.374Z" id="indexCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Index Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.403Z" duration="7" execution="2019-03-02T02:12:24.417Z" id="platformClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Platform Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Platform Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.428Z" duration="27" execution="2019-03-02T02:12:24.450Z" id="orbitReferenceClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Orbit Reference Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : measurementOrbitReference</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:24.484Z" duration="1858" execution="2019-03-02T02:12:24.558Z" id="idReferences" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if all the Id References defined in the product are valid. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">All the Id References defined in the product are valid.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.419Z" duration="5" execution="2019-03-02T02:12:26.434Z" id="acquisitionPeriodCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Acquisition Period Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.442Z" duration="24" execution="2019-03-02T02:12:26.463Z" id="qualityInformationClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Quality Information Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.490Z" duration="6" execution="2019-03-02T02:12:26.504Z" id="processingClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Processing Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.517Z" duration="23" execution="2019-03-02T02:12:26.561Z" id="gridReferenceClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Grid Reference Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.587Z" duration="23" execution="2019-03-02T02:12:26.607Z" id="schemaCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Schema Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : S2_Level-1C_Tile_Schema, Inventory_Metadata_Schema, OLQC_Report_Schema</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.632Z" duration="22" execution="2019-03-02T02:12:26.653Z" id="indexClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Index Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.678Z" duration="24" execution="2019-03-02T02:12:26.699Z" id="annotationCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Annotation Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:26.962Z" duration="16" execution="2019-03-02T02:12:27.024Z" id="Tile_Position_Size" item="S2A_OPER_MTD_L1C_TL_EPAE_20190302T014622_A019275_T01WCU.xml" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/S2A_OPER_MTD_L1C_TL_EPAE_20190302T014622_A019275_T01WCU.xml" name="Check of consistency of Tile Position by Size. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Tile image size is between [90000.0,110000.0].</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:27.044Z" duration="4" execution="2019-03-02T02:12:27.085Z" id="Tile_Position_Geoposition" item="S2A_OPER_MTD_L1C_TL_EPAE_20190302T014622_A019275_T01WCU.xml" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/S2A_OPER_MTD_L1C_TL_EPAE_20190302T014622_A019275_T01WCU.xml" name="Check of consistency of Tile Position by Geoposition. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Tile geoposition is valid.</message>
+                    <extraValues>
+                        <value name="ULX(10)">300000</value>
+                        <value name="ULY(10)">7900020</value>
+                        <value name="XDIM(10)">10</value>
+                        <value name="YDIM(10)">-10</value>
+                        <value name="ULX(20)">300000</value>
+                        <value name="ULY(20)">7900020</value>
+                        <value name="XDIM(20)">20</value>
+                        <value name="YDIM(20)">-20</value>
+                        <value name="ULX(60)">300000</value>
+                        <value name="ULY(60)">7900020</value>
+                        <value name="XDIM(60)">60</value>
+                        <value name="YDIM(60)">-60</value>
+                    </extraValues>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.287Z" duration="22" execution="2019-03-02T02:12:28.303Z" id="annotationClassification" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Annotation Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.327Z" duration="37" execution="2019-03-02T02:12:28.346Z" id="gridReferenceCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Grid Reference Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.395Z" duration="56" execution="2019-03-02T02:12:28.424Z" id="informationCategory" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Information Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : S2_Level-1C_Tile_Information</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.484Z" duration="31" execution="2019-03-02T02:12:28.505Z" id="checkMetadata" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Metadata file check. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Metadata file is present.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.545Z" duration="6" execution="2019-03-02T02:12:28.555Z" id="processingExists" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Checks if Processing metadata is present. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing exists.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.567Z" duration="337" execution="2019-03-02T02:12:28.595Z" id="CheckDetFooMaskFormat" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Check DETFOO for format correctnes " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">DETFOO mask format is correct</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:28.935Z" duration="229" execution="2019-03-02T02:12:28.948Z" id="CheckNoDataMaskFormat" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Check NODATA Mask for format correctness " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">NODATA mask format is correct</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:29.180Z" duration="210" execution="2019-03-02T02:12:29.194Z" id="CheckDefectMaskFormat" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Check DEFECT Mask for format correctness " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">DEFECT mask format is correct</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:29.716Z" duration="0" execution="2019-03-02T02:12:29.724Z" id="Ecmwf" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="ECMWF data conformity and completeness check  " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">ECMWF file is present.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-03-02T02:12:29.726Z" duration="5" execution="2019-03-02T02:12:29.732Z" id="PVI_and_TCI" item="S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190302_15/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPAE_20190302T014622_A019275_T01WCU_N02.07/" name="Check of consistency of PVI  " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">PVI file is consistent.</message>
+                </check>
+            </checkList>
+        </report>
+    </Data_Block>
+</Earth_Explorer_File>
