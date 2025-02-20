@@ -44,5 +44,3 @@ The plot below shows the **mean echo shape and variability** for sea ice and lea
 |-----------|---------|----------|
 | **Ice**   | 8856    | 22       |
 | **Lead**  | 24      | 3293     |
-
-**Classification Report:**
